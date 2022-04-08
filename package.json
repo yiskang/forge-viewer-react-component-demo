@@ -1,0 +1,35 @@
+{
+  "name": "react-forge-viewer-demo",
+  "version": "1.0.0",
+  "description": "Demo of React Component Library for Autodesk Forge Viewer",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --devtool eval --progress --color --hot"
+  },
+  "keywords": [
+    "autodesk",
+    "forge",
+    "viewer",
+    "react"
+  ],
+  "author": "Eason Kang <eason.kang@autodesk.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
